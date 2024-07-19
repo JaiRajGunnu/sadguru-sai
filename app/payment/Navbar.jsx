@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { House } from "lucide-react";
+import Image from "next/image";
 const Navbar = () => {
   return (
     <nav className="flex justify-center w-full font-poppins p-0 md:p-2 rounded-b-lg bg-[#101115]">
