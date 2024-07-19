@@ -1,5 +1,5 @@
-import Video from "./video";
-import Payment from "./payment";
+import Video from "./video.jsx";
+import Payment from "./payment.jsx";
 const WrapperVP = () => {
   return (
     <div className="flex flex-col p-5 lg:flex-row lg:gap-5 items-center justify-center">
