@@ -1,5 +1,5 @@
-import Payment from "./Payment";
-import Video from "./Video";
+import Payment from "./payment";
+import Video from "./video";
 
 const WrapperVP = () => {
   return (

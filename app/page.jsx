@@ -1,5 +1,5 @@
-import Navbar from "./home/Navbar";
-import WrapperVP from "./home/WrapperVP";
+import Navbar from "./home/navbar";
+import WrapperVP from "./home/wrapperVP";
 
 export default function Home() {
   return (
