@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import MyCarousel from './MyCarousel';
+import MyCarousel from './myCarousel';
 import { Tv } from 'lucide-react';
 
 
