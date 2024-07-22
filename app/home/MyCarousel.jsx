@@ -24,12 +24,10 @@ const MyCarousel = () => {
                 <Image
                   key={index}
                   src={`/${image}`}
-                  height={90}
-                  width={160}
+                  height={300}
+                  width={300}
                   alt={`Image ${index + 1}`}
-                  className="rounded-2xl w-[160px] h-[90px] lg:w-[300px] lg:h-[300px]"
-                  {/*className="rounded-2xl w-full h-full lg:w-[300px] lg:h-[300px]"*/}
-
+                  className="rounded-2xl w-full h-full"
                   priority="true"
                   quality={100}
                 />
