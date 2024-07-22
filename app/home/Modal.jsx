@@ -17,7 +17,7 @@ export default function Modal() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="">
+    <div className="relative mt-[-5%] md:mt-0 lg:mt-0">
       <Dialog open={isOpen} onOpenChange={setIsOpen} className="">
         <DialogTrigger asChild>
           <Button
