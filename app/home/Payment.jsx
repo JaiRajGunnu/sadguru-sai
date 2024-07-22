@@ -6,7 +6,7 @@ import { Tv } from 'lucide-react';
 
 const Payment = () => {
   return (
-    <div className="flex items-center justify-center flex-col gap-8 ">
+    <div className="flex items-center justify-center flex-col gap-5 ">
       <div className='text-[white] font-nst text-2xl font-semibold text-center'>
       
        <p className='m-1'>సబ్కా మాలిక్ ఏక్</p>

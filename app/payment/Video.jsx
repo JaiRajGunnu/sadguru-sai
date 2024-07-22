@@ -10,7 +10,7 @@ const Video = () => {
       ></iframe>
       <div className="w-full h-full p-3 md:p-7 lg:p-5  font-poppins flex items-center justify-center lg:justify-around">
         <p className="font-hso hidden  lg:text-3xl lg:block ">Tutorial video to make subscription payment</p>
-        <Modal  />
+        <Modal />
       </div>
     </div>
   

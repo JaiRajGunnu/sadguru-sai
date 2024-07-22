@@ -23,14 +23,13 @@ export default function Modal() {
         <DialogTrigger asChild>
           <Button
             variant="outline"
-            className="bg-[#1f1f1f] text-white flex items-center justify-center border-none p-4 hover:bg-black hover:text-white "
-          >
+            className="bg-[#1f1f1f] text-white flex items-center justify-center border-none p-4 hover:bg-black hover:text-white lg:ml-[-10%]">
             {" "}
             <BookOpen size={17} className="mr-2" />
             Read Instructions ?
           </Button>
         </DialogTrigger>
-        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8  tracking-wide flex flex-col items-center justify-center w-full h-full md:w-[75%] md:h-[75%] md:items-center lg:justify-center lg:items-center lg:w-[75%] lg:h-[50%]">
+        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-full h-full md:w-[75%] md:h-[75%] md:items-center lg:justify-center lg:items-center lg:w-[75%] lg:h-[50%]">
           <DialogHeader className="w-full h-full flex items-center justify-center md:items-start lg:items-start">
             <DialogTitle className="text-2xl font-hso font-medium">
               Instructions
@@ -43,14 +42,13 @@ export default function Modal() {
             <li>
               Click on <strong>&quot;Pay ₹99&quot;</strong> or{" "}
               <strong>&quot;Pay ₹249&quot;</strong> button or this
-              <Link href="https://amzn.to/4d8hpQ8">
-                <a
-                  className="text-blue-400 border-blue-400 border-b"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Amazon link
-                </a>
+              <Link
+                href="https://amzn.to/4d8hpQ8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-1 font-bold text-blue-400"
+              >
+                Amazon link
               </Link>
               .
             </li>
