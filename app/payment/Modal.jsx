@@ -29,7 +29,7 @@ export default function Modal() {
             Read Instructions ?
           </Button>
         </DialogTrigger>
-        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-full h-full md:w-[75%] md:h-[75%] md:items-center lg:justify-center lg:items-center lg:w-[75%] lg:h-[50%]">
+        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-[95%] md:w-[75%] md:h-[75%] md:items-center lg:justify-center lg:items-center lg:w-[75%] lg:h-[50%]">
           <DialogHeader className="w-full h-full flex items-center justify-center md:items-start lg:items-start">
             <DialogTitle className="text-2xl font-hso font-medium">
               Instructions
@@ -38,7 +38,7 @@ export default function Modal() {
               Follow these steps to make a payment using Amazon:
             </DialogDescription>
           </DialogHeader>
-          <ul className="list-disc list-inside font-poppins m-2 space-y-1">
+          <ul className="list-disc list-inside font-poppins w-full m-2 space-y-1 flex flex-col items-start justify-start ">
             <li>
               Click on <strong>&quot;Pay ₹99&quot;</strong> or{" "}
               <strong>&quot;Pay ₹249&quot;</strong> button or this
@@ -49,8 +49,7 @@ export default function Modal() {
                 className="p-1 font-bold text-blue-400"
               >
                 Amazon link
-              </Link>
-              .
+                </Link>.
             </li>
             <li>
               Enter the desired amount and select the option{" "}

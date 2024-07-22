@@ -22,7 +22,7 @@ export default function Modal() {
         <DialogTrigger asChild>
           <Button
             variant="outline"
-            className="bg-[#1f1f1f] text-white flex items-center justify-center border-none p-4 hover:bg-black hover:text-white lg:ml-[-35%]">
+            className="bg-[#1f1f1f] text-white flex items-center justify-center border-none p-4 hover:bg-black hover:text-white lg:ml-[-35%] lg:mt-1">
             {" "}
             <Play size={17} className="mr-2" />
             Sample Video
@@ -40,7 +40,7 @@ export default function Modal() {
           <div className="flex items-center justify-center rounded-2xl flex-col mt-[-3%]">
           <iframe
         title="vimeo-player"
-        src="https://player.vimeo.com/video/980837824?h=244ca2fef7"
+        src="https://player.vimeo.com/video/988519464?h=244ca2fef7"
         className="h-[260px] w-[100%] md:h-[380px] lg:w-[825px] lg:h-[500px] "
       ></iframe>
 
