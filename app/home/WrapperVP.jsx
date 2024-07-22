@@ -7,7 +7,7 @@ const WrapperVP = () => {
       <div className="h-[270px] w-full md:h-[400px] lg:h-[500px] p-2 mb-28" >
         <Video />
         <div className="w-full h-full p-4 font-poppins flex items-center flex-col gap-4 lg:items-start lg:flex-row lg:justify-between">
-          <p className="font-hso text-xl top-[-8%] md:flex md:top-0 lg:top-0 md:text-3xl lg:static lg:ml-[5%] lg:mt-2 lg:text-3xl">Sadguru Sai Trailer - Telugu</p>
+          <p className="font-hso text-xl relative top-[-10%] md:flex md:top-0 lg:top-0 md:text-3xl lg:static lg:ml-[5%] lg:mt-2 lg:text-3xl">Sadguru Sai Trailer - Telugu</p>
           <Modal />
         </div>
       </div>
