@@ -12,8 +12,9 @@ const Payment = () => {
        <p className='m-1'>సబ్కా మాలిక్ ఏక్</p>
        <p>మానవ సేవే.. మాధవ సేవ!</p>
        </div>
-       
+       <div className=''>
         <MyCarousel />
+        </div>
         <Button variant="link" className="bg-[#101115] rounded-xl text-white text-lg p-5 mt-[-5%] font-hso no-underline hover:no-underline hover:px-5 flex flex-row gap-2 text-center font-semibold leading-5">
         <Tv size={18} className='text-center mt-[-3%]'/>
         <Link href={"./payment"}>  Get Episodes</Link></Button>

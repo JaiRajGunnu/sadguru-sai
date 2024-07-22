@@ -16,7 +16,7 @@ const MyCarousel = () => {
         }),
       ]}
     >
-      <CarouselContent className="flex items-center justify-center mb-2  lg:p-0">
+      <CarouselContent className="flex items-center justify-center mb-2 lg:p-0">
         {data.map((image, index) => {
           return (
             <CarouselItem key={index}>
@@ -24,10 +24,12 @@ const MyCarousel = () => {
                 <Image
                   key={index}
                   src={`/${image}`}
-                  height={300}
-                  width={300}
+                  height={90}
+                  width={160}
                   alt={`Image ${index + 1}`}
-                  className="rounded-2xl w-full h-full"
+                  className="rounded-2xl w-[160px] h-[90px] lg:w-[300px] lg:h-[300px]"
+                  {/*className="rounded-2xl w-full h-full lg:w-[300px] lg:h-[300px]"*/}
+
                   priority="true"
                   quality={100}
                 />
