@@ -42,6 +42,8 @@ export default function Modal() {
         title="vimeo-player"
         src="https://player.vimeo.com/video/988519464?h=244ca2fef7"
         className="h-[260px] w-[100%] md:h-[380px] lg:w-[825px] lg:h-[500px] "
+        allowFullScreen
+        allow="fullscreen"
       ></iframe>
 
     </div>

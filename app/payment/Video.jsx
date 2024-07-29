@@ -7,6 +7,8 @@ const Video = () => {
         title="vimeo-player"
         src="https://player.vimeo.com/video/988252174?h=244ca2fef7"
         className="h-[260px] w-full md:h-[380px] lg:h-[495px] "
+        allowFullScreen
+        allow="fullscreen"
       ></iframe>
       <div className="w-full h-full p-3 md:p-7 lg:p-5  font-poppins flex items-center justify-center lg:justify-around">
         <p className="font-hso hidden  lg:text-3xl lg:block ">Tutorial video to make subscription payment</p>
