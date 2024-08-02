@@ -12,7 +12,8 @@ const WrapperVP = () => {
         </div>
       </div>
 
-      <div className="bg-[#1F1F1F] rounded-2xl flex items-center shadow-wlrd justify-center mr-0 p-2 lg:mr-[6%] font-poppins text-xl w-full md:w-[85%] md:p-4 lg:w-[450px] lg:h-[420px] lg:p-7 mt-[-6%] ">
+      <div className="bg-[#1F1F1F] rounded-2xl flex items-center shadow-wlrd justify-center mr-0 p-2 lg:mr-[6%] font-poppins text-xl w-full md:w-[85%] md:p-4 lg:w-[450px] lg:h-[420px] lg:p-7 mt-[-6%] 
+      lg:scale-[1.1] ">
         <Payment  />
       </div>
     </div>
