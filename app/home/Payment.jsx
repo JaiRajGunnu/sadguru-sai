@@ -20,7 +20,7 @@ const Payment = () => {
         <MyCarousel />
         </div>
 
-      <p className="font-hso text-xl  ml-10 text-center md:text-[25px] ld:text-[25px] lg:ml-20  lg:w-full lg:text-left ">  Om Sai Ram  ❤️🙏  </p>
+      <p className="font-hso text-xl text-center md:text-[25px] lg:text-[25px] ">  Om Sai Ram ❤️🙏  </p>
 
     </div>
   )
