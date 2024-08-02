@@ -20,7 +20,7 @@ const MyCarousel = () => {
         {data.map((image, index) => {
           return (
             <CarouselItem key={index}>
-              <div className="relative rounded-3xl ">
+              <div className="relative rounded-2xl ">
                 <Image
                   key={index}
                   src={`/${image}`}
