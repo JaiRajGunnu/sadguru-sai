@@ -26,7 +26,7 @@ const Payment = () => {
             className="flex items-center justify-center  font-poppins font-bold text-md scale-90 hover:scale-100"
             rel="noopener noreferrer"
             target="_blank">
-            <button className="relative inline-flex rounded-xl items-center px-4 py-2  bg-[#101115]  text-white text-lg hover:delay-75">
+            <button className="relative inline-flex rounded-xl items-center px-4 py-2 w-full bg-[#101115]  text-white text-lg hover:delay-75">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
                 40% OFF{" "}
@@ -40,7 +40,7 @@ const Payment = () => {
             className="flex items-center justify-center  font-poppins font-bold text-md scale-90 hover:scale-100"
             rel="noopener noreferrer"
             target="_blank">
-            <button className="relative inline-flex rounded-xl items-center px-4 py-2  bg-[#4b077b]  text-white text-lg hover:delay-75">
+            <button className="relative inline-flex rounded-xl items-center px-4 py-2 w-full bg-[#4b077b]  text-white text-lg hover:delay-75">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
                 50% OFF{" "}
