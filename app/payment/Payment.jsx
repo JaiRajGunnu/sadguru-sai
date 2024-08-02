@@ -2,7 +2,7 @@ import Link from "next/link";
 const Payment = () => {
   return (
     <div className="flex flex-col gap-2 scale-100 items-center justify-center lg:py-1 lg:px-0 m-3  ">
-      <p className="font-hso text-2xl  ml-10 mr-12 text-center md:text-[25px] ld:text-[25px] lg:ml-20 leading-8 lg:w-full lg:text-left ">
+      <p className="font-hso text-2xl  ml-10 mr-12 text-center md:text-[25px] lg:text-[25px] lg:ml-20 leading-8 lg:w-full lg:text-left ">
         Subscribe & dive up ultimtely ..
       </p>
       <div className="mt-3 items-center justify-center flex-col gap-2 ">
