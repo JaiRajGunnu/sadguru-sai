@@ -3,7 +3,7 @@ import Payment from "./Payment";
 import Modal from "./Modal";
 const WrapperVP = () => {
   return (
-    <div className="flex flex-col p-3 lg:flex-row lg:gap-5 items-center justify-center gap-4">
+    <div className="flex flex-col p-3 lg:flex-row lg:gap-5 items-center justify-center gap-2">
       <div className="h-[270px] w-full md:h-[400px] lg:h-[500px] p-2 mb-28" >
         <Video />
         <div className="w-full h-full p-4 font-poppins flex items-center flex-col gap-4 lg:items-start lg:flex-row lg:justify-between">
@@ -12,8 +12,7 @@ const WrapperVP = () => {
         </div>
       </div>
 
-      <div className="bg-[#1F1F1F] rounded-2xl flex items-center shadow-wlrd justify-center mt-[-10%] mr-0 p-2 lg:mr-[6%] font-poppins text-xl w-[98%] h-[450px] md:w-[85%] md:p-4 lg:w-[450px] lg:h-[420px] lg:p-7 
-      lg:scale-[1.15] ">
+      <div className="bg-[#1F1F1F] rounded-2xl flex items-center shadow-wlrd justify-center mt-[-10%] mr-0 p-2 mb-[-50px] lg:mr-[6%] font-poppins text-xl w-[98%] h-[450px] md:w-[85%] md:p-4 lg:w-[450px] lg:h-[420px] lg:p-7 lg:scale-[1.1] ">
         <Payment  />
       </div>
     </div>
