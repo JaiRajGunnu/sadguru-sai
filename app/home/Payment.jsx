@@ -13,7 +13,7 @@ const Payment = () => {
       </div>
 
       <Button variant="link" className="bg-[#4b077b] w-full rounded-xl text-white text-lg p-4 font-hso no-underline hover:no-underline hover:px-5 flex flex-row gap-2 text-center font-semibold tracking-wider leading-5">
-      <Tv size={18} className='text-center leading-tight'/>
+      <Tv size={18} className='text-center leading-tight font-bold'/>
       <Link href={"./payment"}>     Get Episodes</Link></Button>
       
       <div className='p-1'>
