@@ -1,4 +1,4 @@
-// src/components/Footer.jsx
+// src/components/Footer. cs jsx
 
 import React from 'react';
 
