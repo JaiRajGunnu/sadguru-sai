@@ -28,7 +28,7 @@ export default function Modal() {
             Special Video
           </Button>
         </DialogTrigger>
-        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 w-[95%] h-[45%] md:w-[75%] md:h-[75%] md:items-center lg:justify-center lg:items-center lg:w-[100%] lg:h-[80%]">
+        <DialogContent className="text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 w-[95%] h-[40%] md:w-[75%] md:h-[65%] md:items-center lg:justify-center lg:items-center lg:w-[100%] lg:h-[80%]">
           <DialogHeader className="w-full h-full flex items-center justify-center md:items-start lg:items-start ">
             <DialogTitle className="text-2xl font-hso font-medium">
               Special Video
@@ -37,7 +37,7 @@ export default function Modal() {
             This is a special video clip promo of Sadguru Sai.
             </DialogDescription>
           </DialogHeader>
-          <div className="flex items-center justify-center rounded-2xl flex-col lg:mt-[-2%] mt-[-10%]">
+          <div className="flex items-center justify-center rounded-2xl flex-col mt-[-3%]">
           <iframe
         title="vimeo-player"
         src="https://player.vimeo.com/video/994453950"
