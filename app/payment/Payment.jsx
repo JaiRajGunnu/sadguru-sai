@@ -23,29 +23,29 @@ const Payment = () => {
         <div className="flex flex-col gap-4 mt-6 w-[300px]">
           <Link
             href={"https://amzn.to/4d8hpQ8"}
-            className="flex items-center justify-center font-poppins font-bold text-md scale-90 hover:scale-100"
+            className="flex items-center justify-center font-poppins font-bold text-md scale-90 hover:scale-100 transition-all duration-200 delay-100 hover:opacity-80"
             rel="noopener noreferrer"
             target="_blank">
-            <button className="relative inline-flex rounded-xl items-center px-4 py-2 w-full bg-[#101115]  text-white text-lg hover:delay-75">
+            <button className="relative inline-flex rounded-xl items-center px-14 py-2 w-full bg-[#101115]  text-white text-lg ">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
                 40% OFF{" "}
               </span>
-              Pay ₹ 99 / Monthly
+              Pay ₹ 59 / Monthly
             </button>
           </Link>
 
           <Link
             href={"https://amzn.to/4d8hpQ8"}
-            className="flex items-center justify-center font-poppins font-bold text-md scale-90 hover:scale-100"
+            className="flex items-center justify-center font-poppins font-bold text-md scale-90 hover:scale-100 transition-all duration-200 delay-100 hover:opacity-80"
             rel="noopener noreferrer"
             target="_blank">
-            <button className="relative inline-flex rounded-xl items-center px-4 py-2 w-full bg-[#4b077b]  text-white text-lg hover:delay-75">
+            <button className="relative inline-flex rounded-xl items-center px-14 py-2 w-full bg-[#4b077b]  text-white text-lg delay-700">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
                 50% OFF{" "}
               </span>
-              Pay ₹ 249 / Quaterly
+              Pay ₹ 149 / Quaterly
             </button>
           </Link>
         </div>

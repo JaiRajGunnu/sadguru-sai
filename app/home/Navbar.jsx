@@ -9,7 +9,7 @@ const Navbar = () => {
             src="/tvljsol.png"
             alt="Logo"
             width={150}
-            height={150} // Adjust based on the aspect ratio of your image
+            height={150} 
           />
         </div>
       </Link>

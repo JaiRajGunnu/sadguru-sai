@@ -11,10 +11,11 @@ const Payment = () => {
       <p className='m-1'>సబ్కా మాలిక్ ఏక్</p>
       <p>మానవ సేవే.. మాధవ సేవ!</p>
       </div>
-
-      <Button variant="link" className="bg-[#4b077b] w-[95%] rounded-xl text-white text-lg p-4 font-hso no-underline hover:no-underline hover:px-5 flex flex-row gap-2 text-center font-semibold tracking-wider leading-5">
-      <Tv size={18} className='text-center leading-tight font-bold'/>
-      <Link href={"./payment"}>  Get Episodes</Link></Button>
+      
+      <Button variant="link" className="bg-[#4b077b] w-[95%] rounded-xl text-white text-lg p-4 font-hso no-underline hover:no-underline py-4 hover:px-5 hover:py-5  leading-8 transition-all duration-300 delay-150 hover:bg-black hover:opacity-90">
+      <Link href={"./payment"} className='flex flex-row'>
+      <Tv size={22} className='text-center mr-2 mt-1'/>
+        Get Episodes</Link></Button>
       
       <div className='p-1 w-[95%] lg:w-full'>
         <MyCarousel />
