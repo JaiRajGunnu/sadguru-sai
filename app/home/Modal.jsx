@@ -37,7 +37,7 @@ export default function Modal() {
             This is a special video clip promo of Sadguru Sai.
             </DialogDescription>
           </DialogHeader>
-          <div className="flex items-center justify-center rounded-2xl flex-col mt-[-10%]">
+          <div className="flex items-center justify-center rounded-2xl flex-col lg:mt-[-2%] mt-[-10%]">
           <iframe
         title="vimeo-player"
         src="https://player.vimeo.com/video/994453950"
