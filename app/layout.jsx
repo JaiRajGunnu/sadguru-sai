@@ -1,5 +1,5 @@
 import "./globals.css";
-import { poppins,hso,nst } from "@/utils/font";
+import { poppins,hso,nst,tmrw } from "@/utils/font";
 
 export const metadata = {
   title: "Sadguru Sai",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins} ${hso} ${nst}`}>{children}</body>
+      <body className={`${poppins} ${hso} ${nst} ${tmrw}`}>{children}</body>
       
           </html>
   );

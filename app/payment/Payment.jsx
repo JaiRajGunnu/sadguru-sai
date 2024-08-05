@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { CircleCheckBig } from 'lucide-react';
+
 const Payment = () => {
   return (
     <div className="flex flex-col gap-2 scale-100 items-center justify-center lg:py-1 lg:px-0 m-3  ">
@@ -48,6 +50,18 @@ const Payment = () => {
               Pay ₹ 149 / Quaterly
             </button>
           </Link>
+      <div className="flex text-center justify-center items-center group ">
+      <div className="flex items-center scale-100 group-hover:scale-110 transition-all duration-300">
+        <Link
+          href={"http://localhost:3000/verify"}
+          className="text-sm text-white opacity-40  hover:underline mr-2 group-hover:text-[#fff] group-hover:opacity-100 transition-colors duration-300 " >
+          Verify payment
+        </Link>
+        <CircleCheckBig size={12}
+        className="text-white opacity-40 scale-100 group-hover:text-green-500 group-hover:opacity-100  transition-colors duration-300" />
+    </div>
+    </div>
+
         </div>
       </div>
     </div>

@@ -63,8 +63,8 @@ export default function Modal() {
               </DialogHeader>
               <ul className="list-disc list-inside font-poppins w-full m-2 space-y-1 flex flex-col items-start justify-start">
                 <li>
-                  Click on <strong>&quot;Pay ₹99&quot;</strong> or{" "}
-                  <strong>&quot;Pay ₹249&quot;</strong> button or this
+                  Click on <strong>&quot;Pay ₹ 59&quot;</strong> or{" "}
+                  <strong>&quot;Pay ₹ 149&quot;</strong> button or this
                   <Link
                     href="https://amzn.to/4d8hpQ8"
                     target="_blank"
