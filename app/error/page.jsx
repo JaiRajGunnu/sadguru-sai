@@ -40,7 +40,7 @@ const NotFoundPage = () => {
 
   return (
     <div className="relative flex flex-col justify-center items-center min-h-screen bg-gradient-to-t from-[#170d3c] to-[#050819] overflow-hidden ">
-      <div className="absolute top-[25%] lg:top-[30%] text-white text-center transform scale-[1.5] md:scale-[2.5] lg:scale-[2.5]  font-tmrw uppercase z-10 ">
+      <div className="absolute top-[25%] lg:top-[30%] text-white text-center transform scale-[1.5] md:scale-[2.5] lg:scale-[2.5]  font-serif  uppercase z-10 ">
         <div className="text-4xl mb-6">ERROR</div>
         <h1 className="flex justify-evenly items-center text-6xl mb-6">
           4
