@@ -4,7 +4,7 @@ import Footer from "../home/footer";
 
 const page = () => {
   return (
-    <div className="flex min-h-screen flex-col gap-4 bg-gradient-to-b from-[#101115] to-[#171819] text-white">
+    <div className="flex min-h-screen flex-col gap-4 bg-[#0f1014] text-white">
       <Navbar />
       <WrapperVP />
       <Footer/>

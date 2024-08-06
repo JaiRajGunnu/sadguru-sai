@@ -73,7 +73,7 @@ module.exports = {
       },
       boxShadow: {
         'wd': '10px 10px 1000px 50px #1F1F1F, 1px 1px 50px 100px #1F1F1F, 10px 10px 10px 1px white',
-        'wlrd': '0px 0px 25px 0px #000000, 0px 0px 0px 0px #101115, 0px 0px 0px 0px #101115',
+        'wlrd': '10px 0px 25px 10px #000000, 0px 0px 0px 0px #101115, 0px 0px 0px 0px #101115',
       },
       fontFamily : {
         poppins : ['var(--poppins)'],
