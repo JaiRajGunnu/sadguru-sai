@@ -30,7 +30,7 @@ export default function Modal() {
           </Button>
         </DialogTrigger>
         <DialogContent
-          className={`text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-[95%] md:w-[80%] ${
+          className={`text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-full scale-95 md:scale-100 lg:scale-100 md:w-[80%] ${
             showVideo ? "md:h-[80%]  lg:h-[80%]" : " md:h-[90%] lg:h-[65%]"
           }`}
         >
