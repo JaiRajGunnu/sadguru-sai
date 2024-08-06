@@ -30,8 +30,8 @@ export default function Modal() {
           </Button>
         </DialogTrigger>
         <DialogContent
-          className={`text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-[95%] md:w-[80%] md:h-[80%] ${
-            showVideo ? "lg:h-[80%]" : " lg:h-[60%]"
+          className={`text-base lg:max-w-[1000px] bg-[#0f1014] rounded-xl text-white border-none p-8 tracking-wide flex flex-col items-center justify-center w-[95%] md:w-[80%] ${
+            showVideo ? "md:h-[80%]  lg:h-[80%]" : " md:h-[90%] lg:h-[65%]"
           }`}
         >
           {showVideo ? (
@@ -47,7 +47,7 @@ export default function Modal() {
                 <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/994453004"
-                className="h-[250px] w-[375px] md:h-[380px] md:w-[450px] lg:w-[1025px] lg:h-[400px] lg:mt-[2%]"
+                className="h-[250px] w-[100%] md:h-[380px] md:w-[450px] lg:w-[1025px] lg:h-[400px] lg:mt-[2%]"
                 allowFullScreen
                 allow="fullscreen"
               ></iframe>
@@ -71,7 +71,7 @@ export default function Modal() {
                   Follow these steps or watch video to make subscription payment:
                 </DialogDescription>
               </DialogHeader>
-              <ul className="list-disc list-inside font-poppins font-extralight w-full m-2 space-y-1 flex flex-col items-start justify-start">
+              <ul className="list-disc list-inside font-poppins font-extralight w-auto lg:w-full m-2 space-y-1 flex flex-col items-start justify-start ">
                 <li>
                   Click on <strong className="font-bold">&quot;Pay ₹ 59&quot;</strong> or{" "}
                   <strong className="font-bold">&quot;Pay ₹ 149&quot;</strong> button or this
@@ -104,6 +104,9 @@ export default function Modal() {
                 </li>
                 <li>
                   After verification, you will receive the details shortly, and you will be able to access the content.
+                </li>
+                <li>
+                <strong className="font-bold">Note :</strong> The payment will not be processed unless you complete the  <strong className="font-bold">&quot;Verify Payment&quot;</strong> section.
                 </li>
               </ul>
               <Button
