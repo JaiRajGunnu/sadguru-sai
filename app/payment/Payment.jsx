@@ -53,7 +53,7 @@ const Payment = () => {
       <div className="flex text-center justify-center items-center group ">
       <div className="flex items-center scale-100 group-hover:scale-110 transition-all duration-300">
         <Link
-          href={"/verify"}
+          href={"./verify"}
           className="text-sm text-white opacity-40  hover:underline mr-2 group-hover:text-[#fff] group-hover:opacity-100 transition-colors duration-300 " >
           Verify payment
         </Link>
