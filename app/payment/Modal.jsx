@@ -71,7 +71,7 @@ export default function Modal() {
                   Follow these steps or watch video to make subscription payment:
                 </DialogDescription>
               </DialogHeader>
-              <ul className="list-disc list-inside font-poppins font-extralight  w-full m-2 space-y-1 flex flex-col items-start justify-start">
+              <ul className="list-disc list-inside font-poppins font-extralight text-justify w-full m-2 space-y-1 flex flex-col items-start justify-start">
                 <li>
                   Click on <strong className="font-bold">&quot;Pay ₹ 59&quot;</strong> or{" "}
                   <strong className="font-bold">&quot;Pay ₹ 149&quot;</strong> button or this
