@@ -10,10 +10,7 @@ const Video = () => {
         allowFullScreen
         allow="fullscreen"
       ></iframe>
-      {/* <div className="w-full h-full px-20 p-6  font-poppins flex items-center justify-center border border-white ">
-        <p className="font-hso text-sm">Sadguru Sai Trailer - Telugu</p>
-        <Modal  />
-      </div> */}
+
     </div>
   );
 };
