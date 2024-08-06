@@ -7,6 +7,7 @@ export default function Home() {
        <Navbar  />
        <WrapperVP />
        <Footer />
+       
     </main>
   );
 }

@@ -79,7 +79,6 @@ module.exports = {
         poppins : ['var(--poppins)'],
         hso : ['var(--hso)'],
         nst : ['var(--nst)'],
-        // tmrw : ['var(--tmrw)']
       }
     },
   },
