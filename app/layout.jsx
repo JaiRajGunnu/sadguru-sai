@@ -2,8 +2,8 @@ import "./globals.css";
 import { poppins, hso, nst } from "@/utils/font";
 
 export const metadata = {
-  title: "Sadguru Sai",
-  description: "This year marks the 100-year completion of a momentous event of Sai Baba taking Samadhi in Shirdi. In last 100 years, his teachings continue to comfort millions of followers worldwide. ",
+  title: "Sadguru Sai Telugu - Watch Online",
+  description: "Watch Sadguru Sai serial, the Telugu dubbed version of Mere Sai. Enjoy watching this series from Episode 01 in online on all your compatible devices.",
   verification: {
     google: 'OZSdOBRXuwwqeM1Pz-L4GFy4tW0axfnrBNfjFN6wC0o',
   },
