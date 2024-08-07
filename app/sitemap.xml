@@ -5,16 +5,20 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
 <url>
   <loc>https://sadguru-sai.vercel.app/</loc>
-  <lastmod>2024-07-19T16:38:21+00:00</lastmod>
+  <lastmod>2024-08-07T16:08:01+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://sadguru-sai.vercel.app/payment</loc>
-  <lastmod>2024-07-19T16:38:21+00:00</lastmod>
+  <lastmod>2024-08-07T16:08:01+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sadguru-sai.vercel.app/verify</loc>
+  <lastmod>2024-08-07T16:08:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
