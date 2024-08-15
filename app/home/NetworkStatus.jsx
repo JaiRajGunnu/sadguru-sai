@@ -46,12 +46,14 @@ const NetworkStatus = () => {
 
   return (
     <div
-      className={`fixed bottom-12 left-12 transition-opacity duration-1000 ${
-        isFading ? 'opacity-0' : 'opacity-100'
-      }`}
+      className={`fixed bottom-12 
+        left-1/2 transform -translate-x-1/2  // Center for small screens
+        md:left-12 md:translate-x-0         // Align to left for medium and large screens
+        transition-opacity duration-1000 
+        ${isFading ? 'opacity-0' : 'opacity-100'}`}
     >
       {!isOnline && hasChanged && (
-        <div className="bg-[#1F1F1F] text-white font-poppins w-60 h-16 rounded-lg flex justify-center items-center shadow-lg">
+        <div className="bg-[#1F1F1F] text-white w-60 h-14 rounded-lg flex justify-center items-center shadow-lg">
           <WifiOff size={17} className="text-gray-400 mr-4" />
           <p className="text-sm font-normal truncate">
             You are currently offline.
@@ -59,10 +61,10 @@ const NetworkStatus = () => {
         </div>
       )}
       {isOnline && hasChanged && (
-        <div className="bg-[#1F1F1F] text-white font-poppins w-72 h-16 p-4 rounded-lg flex justify-center items-center shadow-lg">
+        <div className="bg-[#1F1F1F] text-white w-72 h-14 rounded-lg flex justify-center items-center shadow-lg">
           <Wifi size={17} className="text-green-500 mr-4" />
           <p className="text-sm font-normal truncate">
-            Your connection was restored.
+            Your Internet connection was restored.
           </p>
         </div>
       )}
