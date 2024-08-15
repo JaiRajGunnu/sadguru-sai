@@ -56,7 +56,7 @@ const NetworkStatus = () => {
         ${isFading ? 'opacity-0' : 'opacity-100'}`}
     >
       {!isOnline && hasChanged && (
-        <div className="bg-[#1F1F1F] text-white w-60 h-14 rounded-lg flex justify-center items-center shadow-lg">
+        <div className="bg-[#0F1014] md:bg-[#1F1F1F] lg:bg-[#1F1F1F] text-white w-60 h-14 rounded-lg flex justify-center items-center shadow-lg">
           <WifiOff size={17} className="text-gray-400 mr-4" />
           <p className="text-sm font-normal truncate">
             You are currently offline.
@@ -64,7 +64,7 @@ const NetworkStatus = () => {
         </div>
       )}
       {isOnline && hasChanged && (
-        <div className="bg-[#1F1F1F] text-white w-72 h-14 rounded-lg flex justify-center items-center shadow-lg">
+        <div className=" bg-[#0F1014] md:bg-[#1F1F1F] lg:bg-[#1F1F1F] text-white w-72 h-14 rounded-lg flex justify-center items-center shadow-lg">
           <Wifi size={17} className="text-green-500 mr-4" />
           <p className="text-sm font-normal truncate">
             Your connection was restored.
