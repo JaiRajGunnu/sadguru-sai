@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins} ${hso} ${nst}`}>{children}
           <iframe
+            title="sadguru sai bot"
             className="opacity-0 w-[1px] h-[1px] bottom-[0%] left-[0%]"
             src="https://sadgurusai-help.blogspot.com/p/sadguru-sai-help-bot.html"
             style={{ overflow: 'hidden' }}
