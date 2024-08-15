@@ -32,11 +32,14 @@ const NetworkStatus = () => {
       setHasChanged(true);
     };
 
+    // Attach event listeners
     window.addEventListener('online', handleOnline);
     window.addEventListener('offline', handleOffline);
 
-    // Set the initial state based on current network status
-    setIsOnline(navigator.onLine);
+    // Check and handle the initial state
+    if (!navigator.onLine) {
+      handleOffline();
+    }
 
     return () => {
       window.removeEventListener('online', handleOnline);
@@ -64,7 +67,7 @@ const NetworkStatus = () => {
         <div className="bg-[#1F1F1F] text-white w-72 h-14 rounded-lg flex justify-center items-center shadow-lg">
           <Wifi size={17} className="text-green-500 mr-4" />
           <p className="text-sm font-normal truncate">
-            Your Internet connection was restored.
+            Your connection was restored.
           </p>
         </div>
       )}
