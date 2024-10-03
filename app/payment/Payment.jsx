@@ -31,9 +31,9 @@ const Payment = () => {
             <button className="relative inline-flex rounded-xl items-center px-14 py-2 w-full bg-[#101115]  text-white text-lg ">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
-                40% OFF{" "}
+                35% OFF{" "}
               </span>
-              Pay ₹ 59 / Monthly
+              Pay ₹ 79 / Monthly
             </button>
           </Link>
 
@@ -45,9 +45,9 @@ const Payment = () => {
             <button className="relative inline-flex rounded-xl items-center px-14 py-2 w-full bg-[#550679]  text-white text-lg delay-700">
               <span className="absolute top-0 right-0 scale-80 -mt-2 -mr-2 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
                 {" "}
-                50% OFF{" "}
+                40% OFF{" "}
               </span>
-              Pay ₹ 149 / Quaterly
+              Pay ₹ 189 / Quaterly
             </button>
           </Link>
       <div className="flex text-center justify-center items-center group ">
